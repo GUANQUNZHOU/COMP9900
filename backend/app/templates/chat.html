@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Logbook Assistant</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='chatstyle.css') }}">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<!--===============CHAT ON BUTTON STRART===============-->
+<div class="chat_on"> 
+<span class="chat_on_icon">
+	<i class="fa fa-comments"></i>
+</span> 
+</div>
+<div class="container" id="chat_container">
+	<!-------------msg-------->
+	<div class="msg-header">
+		<div class="active">
+			<h4>Logbook Assistant</h4>
+		</div>
+		<div class="header-icons">
+			<!--===============CHAT end BUTTON===============-->
+			<i class="fa fa-times-circle"></i>
+		</div>
+		
+	</div>
+	<div class="chat-page">
+		<div class="msg-inbox">
+			<div class="chats" >
+				<div class="msg-page" id="chat-window">
+					<div class="outgoing-chats">
+						<div class="outgoing-msg">
+							<div class="outgoing-msg-inbox">
+								<p><!-- Welcome to CTCA Logbook Assistance. I can help you with
+		                          <br>-Logbook Creation
+		                          <br>-Logbook Records Display
+		                          <br>-Logbook Editing -->
+		                          Good Day!
+		                      	</p>
+		                      	<span class="show-time" id="time_out">
+
+		                      	</span>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+			<div class="msg-bottom">
+				<input type="file" id="uploaded-file" hidden="hidden"/>
+				<div class="bottom-icons" id="upload">
+					<i class="fa fa-upload"></i>
+				</div>
+				<div class="input-group">
+
+
+					<form id="target" class='form'>
+						<input type="text" class="form-control" placeholder="Enter message..." id="input_message" value="">
+						<input type="submit" hidden>
+						<div class="input-group-append">
+						    <button class="input-group-text">
+						        <i class="fa fa-paper-plane" ></i>
+						    </button>
+						</div>
+					</form>
+
+				</div>
+
+			</div>	
+	</div>
+	
+</div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="{{ url_for('static', filename='custom.js')}}"></script>
+</body>
+</html>

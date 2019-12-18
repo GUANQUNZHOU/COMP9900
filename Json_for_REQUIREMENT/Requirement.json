@@ -1,0 +1,113 @@
+{
+    "prerequisite": {
+        "prerequisite": [
+            "PREREQUISITE CREDENTIALS FOR TRAINING IN CTCA \nEach specialist seeking recognition as a CTCA Specialist must be able to demonstrate evidence of \none of the following pre-requisites \n  ",
+            " \n"
+        ],
+        "Cardiologists": [
+            "Cardiologists\n",
+            "1 Evidence of Ordinary Membership / Fellowship of CSANZ, OR proof of completion of Cardiology \nTraining from RACP / CSANZ.",
+            "2 Evidence of Fellowship of the Royal Australasian College of Physicians (RACP)",
+            "\n"
+        ],
+        "Nuclear Medicine Physicians": [
+            "Nuclear Medicine Physicians\n",
+            "1 A copy of their letter of credentialing (or re-credentialing) for nuclear medicine by the Joint Nuclear \nMedicine Credentialing & Accreditation Committee (JNMCAC) of the RACP and the RANZCR.",
+            "2 A copy of their Medicare / HIC letter of recognition as a consultant physician in nuclear medicine or \"confirmation of status\" letter",
+            "\n"
+        ],
+        "Radiologists": [
+            "Radiologists\n",
+            "1 Successful Area of Need or Overseas Trained Specialist assessment",
+            "2 Educational Affiliate Membership (or eligibility for Education Affiliate Membership) ",
+            "3 Fellowship",
+            "\n"
+        ]
+    },
+    "Certification": {
+        "training": [
+            "TRAINING REQUIREMENTS \nCTCA Specialist Competencies \nAll Specialists seeking to establish proficiency in CTCA are required to achieve the following cognitive \nskills during their training program           \nCT cardiac anatomy \nCT Physics and Reconstruction techniques \nUse of iodinated contrast including contraindications and management of adverse events \nRadiation protection \nDose optimisation \nCardiac Workstation Processing \nCoronary and cardiac pathology and non-cardiac and chest pathology \nRecognition of artefacts \nPatient selection and preparation including heart rate management \nUnderstanding of the clinical relevance of CTCA \nThe CTCA training program must comprise a mix of both didactic and supervised clinical practice \nwhere        \nCases are worked up from raw image data with direct expert supervision / demonstration \nCases with non-coronary cardiac and non-cardiac findings are included \nLibrary cases should be correlated and should include documentation of patient history \nExpert reports +/- invasive angiographic correlation are available by way of reference \nA minimum of 15 minutes is allowed for workup of each case \nA live case component is included (see 12 Definitions \nabove) \nCorrelated cases are those where Correlation is provided through audit by coronary \nangiography/stress echo/nuclear MPS and/or through clinical follow-up with referring medical \npractitioner/multidisciplinary team",
+            "\n"
+        ],
+        "levelA": [
+            "Level A CTCA Specialist  Training requirements for independent supervision \nand reporting of CTCA examinations \nSuch training shall comprise coursework and supervised clinical practice being \nA  Coursework - 40 hours including a minimum period of 20 hours of interactive (hands on) \ntraining at either a training course or carried out in a structured CTCA fellowship setting under \nthe supervision of a Level B CTCA Specialist",
+            "B  Logbook of 150 CTCA cases performed within the previous 3 years verified by a Level B CTCA \nSpecialist including \n  A minimum of 50 live cases",
+            "  A maximum of 25 live cases can be achieved at accredited courses \n  50 correlated cases \n  25 cases with non-coronary cardiac findings \n  25 cases with non-cardiac findings \nFor the purpose of registration as a CTCA Specialist logbook cases must be entered into the Conjoint \nCommittee approved CTCA certification logbook template which must be downloaded from the \nANZCTCA website",
+            "\n"
+        ],
+        "LevelB": [
+            "Level B CTCA Specialist \u2013 Training requirements for provision of CTCA training ",
+            "A. Level A training requirements and \nB  Logbook of 300 cases \nThe Level B applicant must demonstrate an additional 150 CTCA cases performed to those provided \nfor Level A recognition within the previous 3 years verified by a Level B CTCA Specialist",
+            "  30 of these cases must be correlated \n  50 of these cases must be live cases \nFor the purpose of registration as a CTCA Specialist logbook cases must be entered into the Conjoint \nCommittee approved CTCA certification logbook template which must be downloaded from the \nANZCTCA website",
+            "\n"
+        ],
+        "LevelB_supervision": [
+            "Level B CTCA Specialist Supervision \nAll cases in the applicant\u2019s logbook must have been supervised by a Level B CTCA Specialist and \napplicants are advised to confirm that their Level B CTCA Specialist supervisor\u2019s name appears on  \nthe Conjoint Committee\u2019s CTCA Specialist Register before embarking on training.",
+            "When such training \nis undertaken internationally, applicants are advised to ensure that their supervisor is accredited by \nSCCT as a Level 3 CTCA Specialist or equivalent and that there is a mechanism by which their case \nwork can be certified by the training facility.",
+            "\n"
+        ]
+    },
+    "Recertification": {
+        "recertification": [
+            "RECERTIFICATION OF REGISTRATION \nRegistered CTCA Specialists are required to demonstrate currency of practice on a three yearly basis \nusing one of the recertification pathways appropriate to their registration status which are set below"
+        ],
+        "PATH1_A": [
+            "Recertification Pathway 1 \nLevel A CTCA Specialist re-certification of registration \nThe Level A CTCA Specialist must maintain clinical experience in CTCA by performing a minimum \nof 300 examinations within the 3-year Recertification period that is substantiated in the CTCA \nrecertification logbook template \n  30 of these cases must be correlated",
+            "  A maximum of 100 of these 300 cases may be achieved via library cases or accredited courses"
+        ],
+        "PATH1_B": [
+            "Recertification Pathway 1 ",
+            "Level B CTCA Specialist re-certification of registration \nThe Level B CTCA Specialist must maintain clinical experience in CTCA by performing a minimum \nof 600 examinations within the 3-year Recertification period that is substantiated in the CTCA \nrecertification logbook template \n  50 of these cases must be correlated",
+            "  A maximum of 200 of these 600 cases may be achieved via library cases or courses",
+            "It is expected that candidates who maintain a Level B accreditation will also be actively participating \nin courses conferences and publications to demonstrate on-going competency in Cardiac CT \nFurther information on Recertification lodgement requirements is available from the Conjoint \nCommittees websiteviii"
+        ],
+        "PATH1_logbook": [
+            "Recertification Pathway 1 Logbooks for recertification \nElectronic (Excel) logbooks are required to be maintained to support recertification of registration \nand are available at wwwanzctcaorg",
+            "All recertification logbooks must be received as an electronic \nExcel file not in PDF or other image file format)",
+            "The following information is required \n  Case types eligible for Recertification logbooks are those where the examination targets the \n  coronary artery tree as part of the study",
+            "  Date of examination \n  Unique Episode identifier OR Patient Initials AND Date of Birth \n  Site where examination was performed \n  Name of Reporting Doctor \n  Correlation (yes/no) \n  Dose Length Product (DLP) for a minimum of 50 of Live cases \n- \n- \nDLP records have been included as a recertification criterion to raise dose optimisation awareness",
+            "If unable to comply with the request the registration status of the CTCA Specialist will be cancelled \nas dose awareness is considered to be fundamental to CTCA practice",
+            "  Live or Library case (yes/no) \n  Logbook cases claimed as live cases can be double read but only if both readers names \n  appear on the patients report",
+            "  Calcium scoring cases will not be accepted"
+        ],
+        "PATH2_A": [
+            "Recertification Pathway 2 \nLevel A \nLevel A CTCA Specialists shall complete 150 Live cases and 20 hours of dedicated Cardiac CT \n(conferences meetings or refresher courses that solely pertain to Cardiac CT) within a three year \ntimeframe",
+            "  30 of these cases must be correlated",
+            "  Cases achieved via library cases or courses are not eligible"
+        ],
+        "PATH2_B": [
+            "Recertification: Pathway 2 ",
+            "Level B \nLevel B CTCA Specialists shall complete 400 Live cases and 40 hours of dedicated Cardiac CT \n(conferences meetings or refresher courses that solely pertain to Cardiac CT) within a three year \ntimeframe",
+            "  50 of these cases must be correlated",
+            "  Cases achieved via library cases or courses are not eligible"
+        ],
+        "PATH2_Requirement": [
+            "Proof of attendance at courses shall be demonstrated preferably by provision of certification of \nparticipation but as a minimum the candidate shall provide proof of registration accompanied by \nthe program with identification of which sessions were attended",
+            "This equates to approximately 1 case per week or 4 cases per month however all of these cases \nmust be live cases (see 12 Definitions) "
+        ],
+        "PATH2_logbook": [
+            "Recertification Pathway 2 Logbooks for Recertification \nElectronic (Excel) logbooks are required to be maintained to support recertification of registration \nand are available at wwwanzctcaorg",
+            "The following information is required \n  Case types eligible for Recertification logbooks are those where the examination targets the \n  coronary artery tree as part of the study",
+            "  Date of examination \n  Unique Episode identifier OR Patient Initials AND Date of Birth \n  Site where examination was performed \n  Name of Reporting Doctor \n  Correlation (yes/no) \n  DLP for a minimum of 50 of Live cases \n- \n- \nDLP records have been included as a recertification criterion to raise dose optimisation awareness",
+            "This logbook must set out DLP records \nfor all Live cases completed during this 12 month period",
+            "If unable to comply with the request the registration status of the CTCA Specialist will be cancelled \nas dose awareness is considered to be fundamental to CTCA practice",
+            "  Logbook cases claimed as live cases can be double read but only if both readers names \n  appear on the patients report",
+            "  Calcium scoring cases will not be accepted"
+        ]
+    },
+    "Conversion": {
+        "Conversion": [
+            "Conditions for Conversion of Level A Recognition to Level B Recognition \nThe Conjoint Committee has determined that the following principles will apply for Level A CTCA \nSpecialists seeking to convert their registration to Level B: \n",
+            "The Level A applicant must demonstrate that he/she is meeting the requirements for existing Level A \nCTCA Specialist recertification",
+            "The Level A applicant must demonstrate evidence of an additional 150 logbook cases, of which: \n\uf0a7  50 cases must be live cases from a clinical setting; and \n\uf0a7  30 cases must be correlated.",
+            "The number of cases required to demonstrate maintenance of recertification for Level A recognition will \ndepend on the month in which the application to convert Level A registration to Level B recognition is \nreceivedA table setting out the recertification cases required for each month in a 36 month \nrecertification period is provided in Appendix A",
+            "The general principle applied is that no single logbook case can be double counted as a recertification \ncase AND a Level B case by an applicant seeking to convert their Level A registration to Level B"
+        ]
+    },
+    "Submission": {
+        "Submission": [
+            "This logbook must be submitted in Excel file format and not as a PDF document.",
+            "Cases entered in the logbook will be subject to random audit."
+        ]
+    }
+}

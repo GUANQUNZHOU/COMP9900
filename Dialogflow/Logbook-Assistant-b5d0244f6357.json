@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "logbook-assistant-cafdge",
+  "private_key_id": "b5d0244f6357ed3ec512ed27a84a3a6bde453d9e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDLg0GSuf9DxQlv\nSoZUKEMaBqTv1j5sXLiBnxJo6HHmR+pMk5bFaMjuOxdgN6i9tZ6rap7L1tfEWzcZ\naS+thXr34uJB9WgSIb45mE8fnipZ6vpfkPDtmGYPjV6blEuSPFAcMixnIacWxZKU\na0H08qBxXuHlJW7EzvcUB9kmQOBusRAo6CaGtI2TocUJdfzRSbPRXzm2RzZnHZkB\nv0jcVLs3kXNEybUmCfTk6bkGhlFNp3A7AmqbTcM5EC4U1MVpWBvZTovOWWrZspyy\ne2j8u0qAdywnbw3ovbkiIh5aKsass0UYPmdGe5X0XubwbGiH6l6BQkCpl/sN3j3g\nMx/DS5ctAgMBAAECggEAAdKCOaOeZFzKeat4/3OVgjv7/xpz2E7jkg7layNlswet\nfT5hvmZyoiYiTp4WTeM8m/v/lwNXTu6i1CtBHjR7Rjv1sFyCWuM1dljloHqvQLsz\nabv9BEugjP7EPEVm1dTiF2vgQj4mu7P3h4pcVAAA2B20N8k5hYagPMGDPBie9IQa\nR+815StTsNxEfPnZlxS2+bIVjR9yZh658j9ANEMvQ1MWJ80uCjQFJzPnPupXPzF2\nRIp2JY0uz+XQtupuszsJq5MpkY/SDYUnSmASJJTry/trnjFXXP2XUpx7OROqrQ30\nHiq0nkmImLn9fpe7LtenahehfNKsdZRhvVZgvtuDIQKBgQDmhgQw8/aXhqFxhfCg\nZ0AdsiLH9A+ZrVn4z2r0xziCmNejOggVMz0Mkpa/ovlFMyniQ3qHRGcTipV03j8K\n707EUCsPxByMnnSpXOMBnMh0bq4r743rNihQKCnkG1NQCesaFuKGxxwp6uNoKZtR\nCcCmQxEfsvCF3awc+WMpJ+mX0QKBgQDiAQyamNNAo4Wp2w6/ZefTc+nQjOyRylv9\nawb9aQ/sM4yZDUzavxRw1w/Q0zDI1cOpKG9gdj1EQjyCp7mYTmGmqgCYcXTylgkH\nrf6MdhifuibSSoKXruVALCZlVcrY+++3yRabyv57aPsk8qITY5+cSfNdsZXP9gby\na04lU8y8nQKBgDY1H3kvdTYuh3o9h9cAUJhrEji40I5PsE+M3tbOniA/tr2AYPQz\nR1DUi7Rmq301Sc0WFxMF58M1nG2N8X8txPTu8SFU+W2ruT02RX9UkeKnQDe+rj24\nT4SB3U/xiQbSPkG1TfFpktrcjDsrRYWp6G5waO9uUZb5CIcLseC0rP5xAoGBANAz\n9T+K4LrgqieDlf9/SuWDGHi3Cs14Zex9J9BWdIO+LZ1mIlI2zAb0KS7REFVEkN8K\nUCjGZMS4XHRlPdZxBwb6AFhv1TQSQjlf8mvF9ANaA5+hYtOIHMxUn/6k3Z2t4vYl\n+30EshJQ8WTlXaiNE6JwghHjoscVuOqlLjW3EJsFAoGBAIL3SW2DV0RQ1Qzv0Vuh\na4RLhyXSa7AdhkikYNf2Q8kMDn2/AVCLHDV27xmeVXwLWTuLYmKfJ5aPOvlJBEhq\nX+nMUMvZtvZBFBHl3ow/sfG5mVHF/R7HPLWvTGIW7aHi1oOJA/hjlzNKWAuDPH2/\nmK3nMYCmexRRRoNqYvxUETVB\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflow-tqxkff@logbook-assistant-cafdge.iam.gserviceaccount.com",
+  "client_id": "114907927612044391604",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-tqxkff%40logbook-assistant-cafdge.iam.gserviceaccount.com"
+}

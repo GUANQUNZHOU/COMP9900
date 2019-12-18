@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    Required meta tags
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Logbook Assistance</title>
+  </head>
+  <body>
+      <div class="container h-100">
+        <div class="row align-items-center h-100">
+            <div class="col-md-8 col-sm-12 mx-auto">
+                <div class="h-100 justify-content-center">
+                    <div class="chat-container" id='chatbox' style="overflow: auto; max-height: 80vh">
+                        <!-- chat messages -->
+                        <div class="chat-message col-md-5 offset-md-7 bot-message">
+                          Welcome to CTCA Logbook Assistance. I can help you with
+                          <br>-Logbook Creation
+                          <br>-Logbook Records Display
+                          <br>-Logbook Editing
+                        </div>
+                    </div>
+                    <form id="target">
+                       <input class="input" type="text" value="" placeholder="Enter message..." id="input_message"/>
+                       <input type="submit" hidden>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="{{ url_for('static', filename='custom.js')}}"></script>
+  </body>
+</html>
+
+
+
+# use_react = True
+
+# @application.route('/')
+# def index():
+#     return render_template('index.html')
+
+# @application.route('/login', methods=['GET', 'POST'])
+# def login():
+#     error_msg = None
+#     if current_user.is_authenticated:
+#         return redirect(url_for('main_page'))
+
+#     if request.method == 'POST':
+#         if use_react:
+#             data = request.json
+#             username = data['User']
+#             password = data['Psw']
+#         else:
+#             username = request.form['u']
+#             password = request.form['p']
+
+#         # verify login info
+#         # msg: [ T/F, user_ID, error_message ]
+#         msg = manager.verify_login(username, password)
+#         error_msg = msg[2]
+#         # login successful
+#         if msg[0]:
+#             session['username'] = username
+#             session['userid'] = msg[1]
+#             session['logged_in'] = True
+#             login_user(manager.get(msg[1]), remember = False)
+
+#             if use_react:
+#                 response_data = jsonify ({
+#                 "code": 200,
+#                 "status": "OK",
+#                 "message": "Login successful",
+#                 "description": "Login successful"
+#                 })
+#                 response_data.headers.add("Access-Control-Allow-Origin", "*")
+#                 return response_data, 200
+#             else:
+#                 return redirect(url_for('main_page'))
+#         # login failed
+#         else:
+#             print(error_msg)
+#             if use_react:
+#                 response_data = jsonify ({
+#                 "code": 400,
+#                 "status": "NOT OK",
+#                 "message": error_msg,
+#                 "description": "Enter again."
+#                 })
+#                 response_data.headers.add("Access-Control-Allow-Origin", "*")
+#                 return response_data, 400
+#             else:
+#                 flash(error_msg)
+#                 return redirect(url_for('login'))
+
+#     elif not use_react and request.method == 'GET':
+#         return render_template('login.html')
+
+# @application.route('/mainpage.html')
+# def mainpage():
+#     if not current_user.is_authenticated:
+#     # if not session.get('logged_in'):
+#         print('[WARN] Not signed in yet!')
+#         return redirect(url_for('index'))
+        
+#     print("[INFO] Currently signed in:", current_user.name )
+#     if use_react:
+#         return render_template('mainpage.html')
+#     else:
+#         user = {'username': current_user.name}
+#         user['userid'] = current_user.id
+#         return render_template('main.html', user=user)
+
+# @application.route('/register', methods=['GET', 'POST'])
+# def register_form():
+#     error_msg = None
+#     if request.method == 'POST':
+#         if use_react:
+#             data = request.json
+#             name = data['User']
+#             password = data['Psw']
+#             email = data['Email']
+#             phone = data['Phone']
+#             utype = data['Type']
+#         else:
+#             name = request.form['User_name']
+#             password = request.form['User_password']
+#             email = request.form['User_email_address']
+#             phone = request.form['User_phone_number']
+#             utype = request.form["Identification"]
+
+#         # check if this username is available
+#         if manager.checkDuplicate(name):
+#             error_msg = 'ERROR: Username already existed! Please choose another one.'
+#             if use_react:
+#                 response_data = jsonify ({
+#                 "code": 400,
+#                 "status": "NOT OK",
+#                 "message": error_msg,
+#                 "description": "Enter again."
+#                 })
+#                 response_data.headers.add("Access-Control-Allow-Origin", "*")
+#                 return response_data, 400
+#             else:
+#                 flash(error_msg)
+#                 return redirect(url_for('register_form'))
+#         # check if this email address is available
+#         elif manager.checkEmail(email):
+#             error_msg = 'ERROR: This Email address is already registered. Please use another one.'
+#             if use_react:
+#                 response_data = jsonify ({
+#                 "code": 400,
+#                 "status": "NOT OK",
+#                 "message": error_msg,
+#                 "description": "Enter again."
+#                 })
+#                 response_data.headers.add("Access-Control-Allow-Origin", "*")
+#                 return response_data, 400
+#             else:
+#                 flash(error_msg)
+#                 return redirect(url_for('register_form'))
+#         else:
+#             # create table for new user
+#             manager.create_user([name, password, email, phone, utype])
+#             print(f'[INFO] New user {name} created.')
+#             msg = manager.verify_login(name, password)
+#             session['username'] = name
+#             session['userid'] = msg[1]
+#             session['logged_in'] = True
+#             login_user(manager.get(msg[1]), remember = False)
+#             if use_react:
+#                 response_data = jsonify ({
+#                 "code": 200,
+#                 "status": "OK",
+#                 "message": "user create",
+#                 "description": "redirect"
+#                 })
+#                 response_data.headers.add("Access-Control-Allow-Origin", "*")
+#                 return response_data, 200
+#             else:
+#                 return redirect(url_for('mainpage'))
+
+#     elif not use_react and request.method == 'GET':
+#         return render_template('register.html')
+
+        
+# @application.route('/get_user_name', methods=['GET'])
+# def get_user_name():
+#     if request.method == 'GET':
+#         info = manager.getInfo(current_user.id)
+#         response_data = jsonify ({
+#             "code": 200,
+#             "status": "OK",
+#             "message": "ping success",
+#             "description": "Get the userid and name.",
+#             "data": {
+#                 'name': current_user.name,
+#                 'id': current_user.id,
+#                 'email': info[0],
+#                 'phone': info[1],
+#                 'usertype': info[2]
+#             }
+#         })
+#         response_data.headers.add("Access-Control-Allow-Origin", "*")
+#         return response_data, 200
+            
+
+# @application.route('/logout')
+# def logout():
+#     # remove the username from the session if it's there
+#     print('[INFO] User %s logging out..' % session.get('username'))
+#     session.pop('username', None)
+#     session.pop('userid', None)
+#     session.pop('logged_in', None)
+#     logout_user()
+#     return redirect(url_for('index'))
+
+
+# # manually recruid trainees for testing (for fun)
+# @application.route('/recruit/<stuid>')
+# def recruitStudents(stuid):
+#     supid = current_user.id
+#     stuid = 'CTCA'+stuid
+#     if manager.recruit(supid, stuid):
+#         return f'Student {stuid} is now enslaved by supervisor {supid}.'
+#     else:
+#         return f'Supervisor {supid} failed recruiting student {stuid}.'
+
+# # quickly check user types
+# @application.route('/usertypes/<uid>')
+# def test_usertypes(uid):
+#     ret = manager.getInfo('CTCA'+uid)
+#     if ret:
+#         return ret[2]
+#     else:
+#         return 'Found no such person.'

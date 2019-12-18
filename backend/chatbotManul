@@ -1,0 +1,70 @@
+CTCA ChatBOT Manul
+webhook：http://a161b893.ngrok.io/
+Main Functions:
+	1. logbook creation
+		- Training types:
+			- Provide links of coresponding training types [link]
+			- 0 logbooks: Certification
+			- otherwise: 
+				- Meet requirement?
+					- Yes: Conversion/Recertification
+						-Recertification: 
+							- Pathway1/Pathway2
+							- Pathway1 -> Pathway2?
+					- No: not allowed to creat
+			- Training Type = Existing:
+				- Overwrite?
+					- yes
+						- logbook backup + remove current logbook
+					- no
+					 	- nothing changes
+
+	2. logbook display
+		- 0 logbooks: create
+		- else: 
+			- Training type:
+				- general info + detail[link]
+
+	3. logbook edit
+		- entry
+			- Training types:
+				- Exist?
+					- no: Create
+					- yes:
+						- Upload [One File a time = One case in logbook]
+							- Extra QA needed on missing infor
+							- Show added info and provide link to logbook [link]
+						- QA
+							- Different intents = Different Training types:
+								- Questions are asked based on extracted schema
+								- Show added info and provide link to logbook [link]
+		- deletion [whole logbook]
+			- Training types:
+				- confirm
+				- logbook backup + remove current logbook
+
+		- recover from old version
+			- Training types
+
+	4. logbook export
+		- Training types:
+			- link provided for downloading logbook
+
+	5. training status
+		- Name
+		- ID
+		- Training Types
+		- Due Date
+		- Details of Training
+
+	6. logbook supervision [LevelB only]
+
+		- List of students who need to be verified
+			- students' ID [link]
+		- verify:
+			- teacher' ID
+	7. Find supervision 
+		- If already has a supervisor:
+			- asl user for change?
+		- else add supervisor to student/add student to supervisor
+
