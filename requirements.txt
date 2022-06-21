@@ -26,7 +26,7 @@ nameparser==1.0.4
 ndg-httpsclient==0.5.1
 networkx==2.4
 nltk==3.4.5
-numpy==1.17.3
+numpy==1.22.0
 oauth2client==3.0.0
 pandas==0.25.3
 pdfminer==20191020
